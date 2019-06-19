@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+// Code for the:   rfWebWidgets project.
+// Created:        06/19/2019
+// Copyright (c):  David M. Witten II
+-->
+<html>
+    <head id='theHead'>
+        <title>tab_waterfall</title>
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+        <link type='text/css' rel='stylesheet' href='../css/main.css'>
+        <!-- script type='text/javascript' src='../js/x-rfGraphTool.js'></script -->
+    </head>
+    <body id='tabBody'>
+        <div id='waterfalls' class='panelGridContainerClass'>
+            <nav id='wfNav' class='wfNavClass'>
+                <div id='btnDivDraw' class='btnDivClass' >Draw</div>
+                <div id='btnDivMeasure' class='btnDivClass' >Measure</div>
+                <div id='btnDivMagnify' class='btnDivClass' >Thumbnail Magnify</div>
+                <div id='btnDivHideAll' class='btnDivClass' >Hide All</div>
+                <div id='btnDivShowAll' class='btnDivClass' >Show All</div>
+                <div id='btnDivClearAll' class='btnDivClass' >Clear All</div>
+                <div id='btnDivPrintCurrent' class='btnDivClass' >Print Current</div>
+                <div id='btnDivPrintAll' class='btnDivClass' >Print All</div>
+                <div id='btnDivReset' class='btnDivClass' >Reset</div>
+            </nav>
+            <article id='wfart' class='wfArtClass'>
+                <x-rfpanafall id='x-rfpanafall-1' class='xwaterfallClass' height='445px' width='709px' src='/img/Walachia-OSM.png'>
+                </x-rfpanafall>
+            </article>
+            <aside id='wfaside' class='wfAsideClass'>
+                <div id='asideMagWin' class='asideMagWinClass'>
+                    <canvas id='asideMagCanvas' class='asideMagCanvasClass' height='250px' width='250px'>
+                    </canvas>
+                </div>
+            </aside>
+        </div>
+    </body>
+</html>

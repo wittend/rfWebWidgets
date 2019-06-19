@@ -1,0 +1,14 @@
+[
+    {
+        "simplewindow" : 
+        "<div id='topFrame' class='tabbedContainerClass'>\n            <ul>\n                <li><a href='#Images'>  <span>Image</span>  </a></li>\n                <li><a href='#Config'>  <span>Config</span> </a></li>\n            </ul>\n            <div id='Config' class='tabPageClass' >\n                <div id='configPage' class='ddeditspaceClass'></div>\n            </div>\n        </div>"
+    },
+    {
+        "tabbedLayout" : 
+        "<div id='topFrame' class='tabbedContainerClass'>\n            <ul>\n                <li><a href='#Images'>  <span>Image</span>  </a></li>\n                <li><a href='#Config'>  <span>Config</span> </a></li>\n            </ul>\n            <div id='Config' class='tabPageClass' >\n                <div id='configPage' class='ddeditspaceClass'></div>\n            </div>\n        </div>"
+    },
+    {
+        "splitLayout" : 
+        "<div id='topFrame' class='splitContainerClass'>\n            <ul>\n                 <li><a href='#Images'>  <span>Image</span>  </a></li>\n                <li><a href='#Config'>  <span>Config</span> </a></li>\n            </ul>\n            <div id='Config' class='tabPageClass' >\n                <div id='configPage' class='ddeditspaceClass'></div>\n            </div>\n        </div>"
+    }
+]

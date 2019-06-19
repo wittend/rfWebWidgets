@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+// Code for the:   rfWebWidgets project.
+// Created:        05/29/2019
+// Copyright (c):  David M. Witten II
+-->
+<html>
+    <head id='theHead'>
+        <title>tabFormTracking</title>
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+        <link type='text/css' rel='stylesheet' href='../css/main.css'>
+        <script type='text/javascript' src='../js/libs/jquery-3.1.1.min.js'></script>
+        <script type='text/javascript' src='../js/libs/jquery-ui-1.12.1/jquery-ui.min.js'></script>
+        <script type='text/javascript' src='../js/libs/jsxgraphcore.js'></script>
+        <script type='text/javascript'>
+            $(document).ready(function()
+            {
+                let brd3 = JXG.JSXGraph.initBoard('panelSigPlot', {boundingbox: [-3, 3, 3, -3], keepaspectratio: true});
+                let A = brd3.create('point', [0,1]);
+                let B = brd3.create('point', [1,1]);
+                let C = brd3.create('point', [0,-1]);
+                let hyp = brd3.create('hyperbola',[A, B, C]);
+            });
+        </script>
+    </head>
+    <body id='tabBody'>
+        <div id='panelSigPlot' class='panelGridContainerClass'>
+        </div>
+    </body>
+</html>

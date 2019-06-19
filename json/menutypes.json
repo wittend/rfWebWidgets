@@ -1,0 +1,56 @@
+[
+    {
+        "label":            "File",
+        "items":
+        [
+            {"open":            "Open"},
+            {"close":           "Close"},
+            {"separator":       "SEP"},
+            {"save":            "Save"},
+            {"save as":         "Save As"},
+            {"print":           "Print"},
+            {"separator":       "SEP"},
+            {"quit":            "Quit"},
+            {"new":             "NEW"}
+        ]
+    },
+    {
+        "label":            "Edit",
+        "items":
+        [
+            {"options":         "Options"},
+            {"separator":       "SEP"},
+            {"test":            "Test 1"},
+            {"test":            "Test 2"},
+            {"new":             "NEW"}
+        ]
+    },
+    {
+        "label":           "Tools",
+        "items":
+        [
+            {"options":         "Options"},
+            {"separator":       "SEP"},
+            {"test":            "Test 1"},
+            {"test":            "Test 2"},
+            {"new":             "NEW"}
+        ]
+    },
+    {
+        "label":            "Help",
+        "items":
+        [
+            {"documentation":   "Documentation"},
+            {"separator":       "SEP"},
+            {"website":         "Web Site"},
+            {"separator":       "SEP"},
+            {"about":           "About"},
+            {"new":             "NEW"}
+        ]
+    },
+    {
+        "label":             "NEW",
+        "items":
+        []
+    }
+]

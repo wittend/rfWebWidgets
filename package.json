@@ -1,0 +1,34 @@
+{
+  "name": "rfWebWidgets",
+  "version": "0.0.1",
+  "description": "A collection of HTML Custom Components of use to technical/rf/engineering users.",
+  "main": "main.html",
+  "node-remote": "https://www.google.com/*",
+  "keywords": [],
+  "author": "David Witten II",
+  "license": [
+    {
+      "type": "GPL-2.0",
+      "url": "http://www.opensource.org/licenses/GPL-2.0"
+    }
+  ],
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/wittend/rfWebWidgets.git"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "nwjs": true,
+    "id": "main-topwindow",
+    "icon": "img/nwjs-template.png",
+    "min_width": 950,
+    "min_height": 600,
+    "resizeable": true
+  },
+  "dependencies": {
+  }
+ }
