@@ -20,6 +20,10 @@ html
 {
     padding:                0px;
 }
+.ui-tabs-panel
+{
+    overflow:               hidden;
+}
 .panelGridContainerClass
 {
     display:                grid;
@@ -32,19 +36,11 @@ html
     margin:                 0;
     overflow:               hidden;
 }
-/*.panelGridContainerClass > div*/
-/*{*/
-/*    background-color:       #716060;*/
-/*    color:                  #000000;*/
-/*    padding:                0px;*/
-/*    font-size:              13pt;*/
-/*    margin:                 0;*/
-}
-#x-waterfall-0
+.panelGridSpacerClass
 {
-    position:               absolute;
-    top:                    1px;
-    left:                   1px;
+    background-color:       #ccffff;
+    width:                  30px;
+    border:                 1px solid #88ffbb;
 }
 #x-rfpanafall-1
 {
@@ -62,40 +58,33 @@ html
     background-color:       #ccffff;
     text-align:             left;
 }
-.panelGridSpacerClass
-{
-    background-color:       #ccffff;
-}
-#waterfalls
+#tabPanelClass
 {
     position:               relative;
     height:                 100%;
     width:                  100%;
-    overflow:               hidden;
+    padding:                0px;
+    margin:                 0;
 }
-#tabs-waterfall
+#tabs-annotzoom
 {
+    position:               relative;
     background-color:       #716060;
+    overflow:               hidden;
 }
 #tabs-sigplot
 {
+    position:               relative;
     background-color:        #ccffff;
-    /* background-color:       rgba(255, 255, 255, 0.8);*/
+    overflow:               hidden;
 }
-.waterfallCanvasContainerClass
+#tabs-config
 {
     position:               relative;
-    padding:                0px;
-    margin:                 0;
-}
-#x-waterfall
-{
     background-color:       #716060;
-    position:               relative;
-    padding:                0px;
-    margin:                 0;
+    overflow:               hidden;
 }
-.builder-topframe
+.topFrameClass
 {
     height:                 100%;
     width:                  100%;
@@ -106,25 +95,14 @@ html
     padding:                0px;
     margin:                 0;
 }
-#interaction-pane
-{
-    position:               relative;
-    height:                 100%;
-    text-align:             left;
-    background-color:       #ffffff;
-    padding:                0px;
-    overflow-x:             hidden;
-    overflow-y:             hidden;
-    padding:                0px;
-    margin:                 0;
-}
+
 .wfNavClass
 {
     position:               absolute;
     top:                    0px;
     left:                   0px;
     height:                 100%;
-    width:                  calc(25% - 16px);
+    width:                  calc(25% - 20px);
     margin:                 0px;
     padding:                0px;
     border:                 1px solid #8888bb;
@@ -137,7 +115,7 @@ html
 {
     position:               absolute;
     top:                    0px;
-    left:                   calc(25% - 16px);;
+    left:                   calc(25% - 18px);;
     height:                 100%;
     width:                  calc(50% + 36px);
     margin:                 0px;
@@ -163,6 +141,7 @@ html
     order:                  4;
     overflow:               hidden;
 }
+
 .btnDivClass
 {
     width:                  calc(100% - 30px);
@@ -178,6 +157,7 @@ html
 {
     background-color:       #d0f0d0;
 }
+
 #asideMagCanvas
 {
     height:                 250px;

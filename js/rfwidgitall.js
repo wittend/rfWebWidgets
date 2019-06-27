@@ -4,11 +4,12 @@
 // Purpose:         eXtended <img> element with drawable
 //                  canvas overlays.
 //
-// Date created:    05-06-2019
+// Date created:    2019-05-06
 // Copyright (c):   David M. Witten II
 //--------------------------------------------------------------
-/* jshint strict:           true        */
-/* jshint unused:           false       */
+// jshint esversion:        6
+// jshint unused:           false
+// jshint undef:            false
 
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // <XRFLayer>    [eXtended Img element]
@@ -213,7 +214,6 @@ class XRFGraphTool extends HTMLElement
         {
             case 'canvas':
                 this.layers[len]                     = document.createElement('canvas');
-                //this.layers[len]                     = document.createElement('x-rflayer');
                 this.layers[len].width               = this.w;
                 this.layers[len].height              = this.h;
                 this.layers[len].fillObj             = false;
@@ -839,33 +839,6 @@ class XRFPanaFall extends XRFGraphTool
             this.clearCanvas(this.layers[i]);
         }
     }
-
- 
-    ////--------------------------------------------
-    //// get/set extView. 
-    ////--------------------------------------------
-    //get extView()
-    //{
-    //    if(!this.hasAttribute('extView') || (this.height <= 0))
-    //    {
-    //        this.height = 150;
-    //    }
-    //    return this.height;
-    //}
-    //
-    //set extView(val)
-    //{
-    //    const isUndef = (val == undefined);
-    //    if(!isUndef)
-    //    {
-    //        this.setAttribute('extView', val);
-    //    }
-    //    else
-    //    {
-    //        this.removeAttribute('extView');
-    //    }
-    //}
-    //
 
 }
 

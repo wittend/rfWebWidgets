@@ -2,7 +2,7 @@
 // mainmenu.js
 //
 // Code for the:   ubxcfg project.
-// Created:        04/31/2019
+// Created:        05/31/2019
 // Copyright (c):  David M. Wittend II
 //--------------------------------------------------------------
 /* jshint unused:           false       */
