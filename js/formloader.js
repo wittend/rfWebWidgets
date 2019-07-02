@@ -1,9 +1,9 @@
 //------------------------------------
 // formLoader.js
 //
-// Code for the:   ubxcfg project.
+// Code for the:   rfWebWidgets project.
 // Created:        2019/06/24
-// Copyright (c):  David M. Wittend II
+// Copyright (c):  David M. Witten II
 //------------------------------------
 // jshint esversion:        6
 // jshint unused:           false

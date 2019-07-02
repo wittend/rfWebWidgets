@@ -27,7 +27,11 @@ $(document).ready(function()
     // Kick the debugger to make it wake up
     //---------------------------------------
     //debugger;
-    
+    customElements.whenDefined('x-rfpanafall').then(() =>
+    {
+        console.log('x-rfpanafall defined');
+    });    
+
     // put all code that executes on startup here.
     let mm = new MainMenu();
     let topframe = `

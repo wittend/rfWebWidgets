@@ -31,8 +31,41 @@
         <script type='text/javascript' src='./js/formloader.js'></script>
         <script type='text/javascript' src='./js/cfgmanager.js'></script>
         <script type='text/javascript' src='./js/main.js'></script>
+
+
+        <!-- ========== NPM Installed CSS/JS ========== -->
+        <!-- Stuff from node_modules -->
+        <!-- script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js" defer></script-->
+
+        <!-- Load a custom element definitions in `waitFor` and return a promise -->
+        <!-- script type="module">
+            function loadScript(src)
+            {
+                return new Promise(function(resolve, reject)
+                {
+                    const script = document.createElement('script');
+                    script.src = src;
+                    script.onload = resolve;
+                    script.onerror = reject;
+                    document.head.appendChild(script);
+                });
+            }
+            
+            WebComponents.waitFor(() =>
+            {
+                // At this point we are guaranteed that all required polyfills have
+                // loaded, and can use web components APIs.
+                // Next, load element definitions that call `customElements.define`.
+                // Note: returning a promise causes the custom elements
+                // polyfill to wait until all definitions are loaded and then upgrade
+                // the document in one batch, for better performance.
+                return loadScript('my-element.js');
+            });
+        </script-->
+        
     </head>
     <body id='theBody'>
-        <!-- content is inline in js/main.js -->
+        <!-- Use the custom element on the page. -->
+        <!-- my-element></my-element -->
     </body>
 </html>
